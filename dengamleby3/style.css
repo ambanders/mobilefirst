@@ -18,6 +18,9 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+
 }
 header .logo{
     font-weight: bolder;
@@ -92,7 +95,7 @@ header label{
 /*NYHEDSSEKTION MED SLIDESHOW*/
 
 .section-nyheder{
-    height: 1000px;
+    height: 940px;
     background-color: #333;
     display: flex;
     justify-content: center;
@@ -109,6 +112,9 @@ header label{
 .overskrift{
     height: 200px;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    
 }
 
 .overskrift h1{
@@ -121,15 +127,17 @@ header label{
 /* DE TRE KORT MED ÅBNINGSTIDER ETC*/
 
 .section-besøg{
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: center;
     color: white;
     text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .section-besøg div{
-    width: 22.8%;
+    width: 350px;
     margin: 50px;
     margin-top: 0px;
     
@@ -155,7 +163,7 @@ header label{
     margin-top: 15px;
     font-size: 15pt;
     font-weight: lighter;
-    margin-bottom: 350px;
+    margin-bottom: 270px;
 }
 
 .section-besøg .åbningstider a{
@@ -180,8 +188,11 @@ header label{
     
 }
 
+/*bruges udelukkende til at lave margin bottom for at skubbe linket under ned da det opførte sig mærkeligt*/
+
 .section-besøg .priser p{
-    margin-bottom: 145px;
+    margin-bottom: 60px;
+    font-size: 0;
 }
 
 .section-besøg .priser a{
@@ -199,6 +210,11 @@ header label{
     
 }
 
+.section-besøg .købbillet h3{
+    margin-top: 200px;
+    font-size: 20pt;
+    
+}
 
 
 
@@ -242,4 +258,16 @@ header label{
     #menu-bar:checked ~ .navbar{
         display: initial;
     }
+
+    .section-besøg{
+        flex-wrap: wrap;
+    }
+
+    .section-nyheder{
+        height: 400px;
+    }
+
+
+
+
 }
