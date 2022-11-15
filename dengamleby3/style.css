@@ -13,7 +13,7 @@ header{
     top:0; left: 0; right: 0;
     background :#28396e;
     box-shadow: 0 0px 10px rgba(0, 0, 0, .1);
-    padding: 0px 7%;
+    padding: 0px 4%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,7 +48,7 @@ header .navbar ul li a{
     padding: 20px;
     color:rgb(38, 63, 89);
     display: block;
-    color:rgb(38, 63, 89);
+    color:rgb(255, 255, 255);
     text-decoration: none;
 }
 header .navbar ul li a:hover{
