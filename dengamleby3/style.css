@@ -20,6 +20,7 @@ header{
     z-index: 1000;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
+    
 
 }
 header .logo{
@@ -44,7 +45,7 @@ header .navbar ul li{
 
 }
 header .navbar ul li a{
-    font-size: 20px;
+    font-size: 17px;
     padding: 20px;
     color:rgb(38, 63, 89);
     display: block;
@@ -138,11 +139,23 @@ header label{
 
 .section-besøg div{
     width: 350px;
-    margin: 50px;
+    margin: 70px;
     margin-top: 0px;
-    
+    height: 450px;
+    border-radius: 20px;
     
 }
+
+.section-besøg div:hover{
+    background-color: #52596e;
+}
+
+.section-besøg div a:hover{
+    
+}
+
+
+
 
 
 
@@ -180,6 +193,7 @@ header label{
 
 .section-besøg .priser{
     background-color: rgb(65, 65, 65);
+    
 }
 
 .section-besøg .priser h2{
@@ -210,11 +224,43 @@ header label{
     
 }
 
-.section-besøg .købbillet h3{
-    margin-top: 200px;
+/*bruges udelukkende til at lave margin bottom for at skubbe linket under ned da det opførte sig mærkeligt*/
+
+.section-besøg .købbillet p{
+    margin-bottom: 200px;
+    font-size: 0;
+}
+
+
+.section-besøg .købbillet a{
     font-size: 20pt;
+    color: white;
+    text-decoration: none;
     
 }
+
+
+
+.timeline{
+    height: 700px;
+    background-color: #28396e;
+    
+
+    
+}
+
+.forside-map{
+    height: 700px;
+    background-color: #333;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -259,8 +305,12 @@ header label{
         display: initial;
     }
 
+
+/*REGLER FOR MAIN PÅ MOBIL*/
+
     .section-besøg{
         flex-wrap: wrap;
+        height: 1800px;
     }
 
     .section-nyheder{
@@ -268,6 +318,8 @@ header label{
     }
 
 
-
+  
+    
+   
 
 }
