@@ -96,7 +96,9 @@ header label{
 /*NYHEDSSEKTION MED SLIDESHOW*/
 
 .section-nyheder{
-    height: 940px;
+    margin-top: 40px;
+    padding-top: 25px;
+    height: 560px;
     background-color: #333;
     display: flex;
     justify-content: center;
