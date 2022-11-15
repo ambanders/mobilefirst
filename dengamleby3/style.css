@@ -48,7 +48,7 @@ header .navbar ul li a{
     padding: 20px;
     color:rgb(38, 63, 89);
     display: block;
-    color: white;
+    color:rgb(38, 63, 89);
     text-decoration: none;
 }
 header .navbar ul li a:hover{
@@ -86,7 +86,7 @@ header .navbar ul li:hover > ul{
 
 header label{
     font-size:20px ;
-    color: #333;
+    color: rgb(231, 231, 231);
     cursor: pointer;
     display: none;
 }
