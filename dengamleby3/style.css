@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    
+}
+header{
+    position: fixed;
+    
+    top:0; left: 0; right: 0;
+    background :#28396e;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, .1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header .logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+header img{
+    width: 95px;
+    height: 40px;
+    align-items: left;
+}
+header .navbar ul{
+    list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color:rgb(38, 63, 89);
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+header .navbar ul li a:hover{
+    background: rgb(27, 43, 78);
+    color: #d4dfff;
+}
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #28396e;
+    display: none;
+}
+/* Popout navbar + den der åbner flere links i nav baren */
+header .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+/* Popout navbar 2 hvis extra links skal have flere links */
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+
+}
+header .navbar ul li:focus-within > ul,
+
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+
+#menu-bar{
+    display: none;
+}
+
+header label{
+    font-size:20px ;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*NYHEDSSEKTION MED SLIDESHOW*/
+
+.section-nyheder{
+    height: 1000px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.section-nyheder .slideshow{
+    width: 80%;
+    background-color: rgb(87, 44, 44);
+}
+
+
+/*OVERSKRIFT 365 DAGE*/
+
+.overskrift{
+    height: 200px;
+    text-align: center;
+}
+
+.overskrift h1{
+    font-size: 40pt;
+    margin-top: 90px;
+    margin-bottom: 0px;
+}
+
+
+/* DE TRE KORT MED ÅBNINGSTIDER ETC*/
+
+.section-besøg{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.section-besøg div{
+    width: 22.8%;
+    margin: 50px;
+    margin-top: 0px;
+    
+    
+}
+
+
+
+
+
+.section-besøg .åbningstider{
+    background-color: rgb(65, 65, 65);
+    
+    
+}
+
+.section-besøg .åbningstider h2{
+    margin-top: 50px;
+    font-size: 17pt;
+}
+
+.section-besøg .åbningstider h3{
+    margin-top: 15px;
+    font-size: 15pt;
+    font-weight: lighter;
+    margin-bottom: 350px;
+}
+
+.section-besøg .åbningstider a{
+    font-size: 10pt;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+
+
+.section-besøg .priser{
+    background-color: rgb(65, 65, 65);
+}
+
+.section-besøg .priser h2{
+    margin-top: 50px;
+    font-size: 17pt;
+    
+}
+
+.section-besøg .priser p{
+    margin-bottom: 145px;
+}
+
+.section-besøg .priser a{
+    font-size: 10pt;
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+.section-besøg .købbillet{
+    background-color: rgb(65, 65, 65);
+    
+}
+
+
+
+
+
+/*RESPONSIVE*/
+/*MOBIL*/
+
+@media(max-width:991px){
+    header{
+        padding: 20px;
+    }
+
+    header label{
+        display: initial;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background:#fff;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        display: none;
+    }
+    header .navbar ul li{
+        width: 100%;
+
+    }
+    header .navbar ul li ul{
+        position: relative;
+        width: 100%;
+
+    }
+    header .navbar ul li ul li{
+        background: #eee;
+    }
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
+    }
+}
