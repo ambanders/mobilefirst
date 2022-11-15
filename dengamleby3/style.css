@@ -243,6 +243,9 @@ header label{
         width: 100%;
 
     }
+    header .navbar ul li a{
+        color: rgb(38, 63, 89);
+    }
     header .navbar ul li ul{
         position: relative;
         width: 100%;
