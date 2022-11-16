@@ -99,7 +99,7 @@ header label{
     margin-top: 40px;
     padding-top: 25px;
     height: 850px;
-    background-color: #1c0b0b;
+    background-color: #eeeeee;
     
 }
 
@@ -118,7 +118,7 @@ header label{
 .section-nyheder .slideshow img{
     width: 700px;
     height: 825px;
-    box-shadow: #333;
+    box-shadow: rgb(0, 0, 0);
     
 }
 
@@ -347,9 +347,10 @@ header label{
   
   .title {
     font-size: 38px;
-    color: #616161;
-    font-style: italic;
+    color: #000000;
+    font-style: bold;
     font-weight: 800;
+    font-family: 'Oswald', sans-serif;
   }
   
   .timeline {
@@ -402,7 +403,7 @@ header label{
     font-size: 42px;
     margin-bottom: 50px;
     transform: translate3d(20px, 0, 0);
-    color: #d4a024;
+    color: #6377ae;
     font-weight: 300;
     opacity: 0;
     transition: 0.2s ease 0.4s;
@@ -462,7 +463,7 @@ header label{
     text-align: center;
     opacity: 1;
     background: transparent;
-    color: #d4a024;
+    color: #6377ae;
     margin: 15px 0 !important;
     position: relative;
   }
@@ -474,12 +475,12 @@ header label{
     width: 6px;
     height: 6px;
     border-radius: 100%;
-    background-color: #d4a024;
+    background-color: #c7d6ff;
     transform: scale(0);
     transition: 0.2s;
   }
   .timeline .swiper-pagination-bullet-active {
-    color: #d4a024;
+    color: #bbc2ff;
   }
   .timeline .swiper-pagination-bullet-active::before {
     transform: scale(1);
@@ -567,10 +568,38 @@ header label{
     }
   }
 /* Timeline slutter */
+
+
+
+
+
 .forside-map{
     height: 700px;
-    background-color: #333;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    
+    
 }
+
+.forside-map img{
+  margin: 100px;
+  height: 500px;
+  width: 1300px;
+  
+}
+
+.overskrift-map{
+  font-size: 15pt;
+  text-align: center;
+  margin-top: 70px;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
 
 
 
@@ -630,9 +659,15 @@ header label{
 
 
 
+    
+    .laptop-pic{
+      display: none
+    }
+
+
     .section-nyheder .slideshow img{
         width: 100%;
-        height: 375px;
+        height: 900px;
 
         
     }
@@ -644,18 +679,42 @@ header label{
 
 /*REGLER FOR MAIN PÅ MOBIL*/
 
+
+
+   
+
     .section-besøg{
         flex-wrap: wrap;
         height: 1800px;
     }
 
     .section-nyheder{
-        height: 400px;
+        height: 926px;
     }
 
+    .forside-map img{
+      width: 550px;
+      height: 280px;
+    }
 
-  
+    .forside-map{
+      height: 500px;
+    }
+
+    
+
     
    
+
+}
+
+
+@media(min-width:991px){
+
+
+    .mobil-pic{
+      display: none;
+    }
+
 
 }
