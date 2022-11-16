@@ -613,29 +613,33 @@ header label{
 
 
 
-
-.footer{
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-  text-align: start;
-  letter-spacing: normal;
-  background: #7d8287;
-
-  position: relative;
-  cursor: default;
+/* Footer Start */
+footer .containerfooter{
+  max-width: 1170px;
+  background-color: red;
+  margin: auto;
+}
+.rowfooter{
   display: flex;
-  border-top: rgba(0, 0, 0, 0.7);
+  flex-wrap: wrap;
+}
+footer ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+
 }
 .footer > div{
-  display: block;
-  margin: 10px;
-  padding: 20px;
-  text-align: center;
-  width: 33%;
+
 }
 
-
+/* Footer Slut */
 
 
 
