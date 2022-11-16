@@ -353,6 +353,14 @@ header label{
     font-weight: 800;
     font-family: 'Oswald', sans-serif;
   }
+
+  .title2{
+    font-size: 25px;
+    color: #000000;
+    font-style: bold;
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+  }
   
   .timeline {
     width: 100%;
