@@ -576,7 +576,26 @@ header label{
 
 
 
+.footer{
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: start;
+  letter-spacing: normal;
+  background: #7d8287;
 
+  position: relative;
+  cursor: default;
+  display: flex;
+  border-top: rgba(0, 0, 0, 0.7);
+}
+.footer > div{
+  display: block;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 33%;
+}
 
 
 
