@@ -34,7 +34,7 @@
     list-style: none;
   }
   .footermap{
-    background-color: #24262b;
+    background-color: #28396e;
     padding: 70px 0;
   }
   .footer-colmap{
@@ -56,7 +56,7 @@
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #28396e;
+    background-color: #fff;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
