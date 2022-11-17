@@ -1,3 +1,26 @@
+
+
+
+.navigation-map{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.navigation-map img{
+  margin-top: 90px;
+  height: 750px;
+  width: 1500px;
+  margin-bottom: 50px;
+  
+}
+
+
+
+
+
+
 /* Footer Start */
 footer .containerfootermap{
     max-width: 100%;
