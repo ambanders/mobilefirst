@@ -16,16 +16,28 @@
   transition: 7s;
     animation-name: fade;
     animation-duration: 3s;
+    
   
 }
+
+@media(max-width: 574px){
+  .navigation-map img{
+    height: 280px;
+    width: 500px;
+  }
+  
+}
+
+
 
 @keyframes fade{
   from{opacity: 0;;}
   to{opacity: 1;}
 }
 
-@keyframe color{
-  from{color:#28396e}
+@keyframes color{
+  from{color:#28396e;}
+  to{color:;}
 }
 
 
@@ -45,6 +57,10 @@
   }
   .footermap ul{
     list-style: none;
+   
+    
+    
+    
   }
   .footermap{
     background-color: #28396e;
@@ -62,6 +78,7 @@
     margin-bottom: 35px;
     font-weight: 500;
     position: relative;
+    
   
   }
   .footer-colmap h4::before{
@@ -73,9 +90,11 @@
     height: 2px;
     box-sizing: border-box;
     width: 50px;
+    
   }
   .footer-colmap ul li{
     margin-bottom: 10px;
+    
   }
   .footer-colmap ul li a{
     font-size: 16px;
@@ -86,6 +105,9 @@
     color: #bbbbbb;
     display: block;
     transition: all 0.3s ease;
+   
+    
+    
   
   }
   .footer-colmap ul li a:hover{
