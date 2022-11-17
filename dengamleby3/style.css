@@ -239,11 +239,14 @@ header label{
     margin-top: 0px;
     height: 450px;
     border-radius: 20px;
+    transition: ease-out 0.3s;
     
 }
 
 .section-besøg div:hover{
     background-color: #52596e;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 10);
+    transition: ease-in-out 0.2s ;
 }
 
 .section-besøg div a:hover{
@@ -260,16 +263,21 @@ header label{
 
 .section-besøg .åbningstider{
     background-color: rgb(65, 65, 65);
-    
-    
+    background-image: url(images/kortimg1\ red.jpg);
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
     
     
 }
 
 
+
 .section-besøg .åbningstider h2{
     margin-top: 50px;
     font-size: 17pt;
+    
 }
 
 .section-besøg .åbningstider h3{
@@ -293,6 +301,11 @@ header label{
 
 .section-besøg .priser{
     background-color: rgb(65, 65, 65);
+    background-image: url(images/kortimg2\ red.jpg);
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
     
     
 }
@@ -322,6 +335,11 @@ header label{
 
 .section-besøg .købbillet{
     background-color: rgb(65, 65, 65);
+    background-image: url(images/kortimg3\ red.jpg);
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center center;
    
     
     
