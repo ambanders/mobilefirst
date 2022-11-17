@@ -97,10 +97,10 @@ header label{
 /*NYHEDSSEKTION MED SLIDESHOW*/
 
 .section-nyheder{
-    margin-top: 40px;
+    margin-top: 70px;
     padding-top: 25px;
     height: 850px;
-    background-color: #eeeeee;
+    background-color: #ffffff;
     
 }
 
@@ -589,12 +589,14 @@ header label{
     justify-content: center;
     
     
+    
 }
 
 .forside-map img{
   margin: 100px;
   height: 500px;
   width: 1300px;
+  
   
 }
 
@@ -603,7 +605,9 @@ header label{
   text-align: center;
   margin-top: 70px;
   font-family: 'Oswald', sans-serif;
+  
 }
+
 
 
 
